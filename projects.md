@@ -8,12 +8,11 @@ Active Projects
 
 Mouse over or click on the tiles below to learn more about some interesting stuff I've been up to.
 
-* [CSB Course Flowchart](/csb_flowchart), an interactive, graphical representation of the required
-  courses for Lehigh CSB majors.
-* [NJTransit Simulation](/stop_map), overlay a map of NJ with the locations of trains thoughout the
-  day.
-* [Historical photos](/basking_ride_photos) Recreate historical photos of my
-  hometown and create a before and after viewer.
+<div class="tiles">
+{% include tile.html href="csb_flowchart" title="CSB Course Flowchart" description="an interactive, graphical representation of the required courses for Lehigh CSB majors." %}
+{% include tile.html href="stop_map" title="NJTransit Simulation" description="Overlay a map of NJ with the locations of trains thoughout the day." %}
+{% include tile.html href="basking_ridge_photos" title="Historical Photos" description="Recreate historical photos of my hometown and create a before and after viewer." %}
+</div>
 
 Firefox Extensions
 ---------------
