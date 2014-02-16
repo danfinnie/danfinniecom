@@ -21,13 +21,14 @@ A lot of these Firefox extensions and
 [Greasemonkey](http://www.greasespot.net/) user scripts are showing their age
 but I'm still receiving praise about them from my users so they live on:
 
-* Click Steer is a Firefox extension that mimics Opera's ability to navigate
-  backwards and forwards in your history by quickly pressing the left and right
-  mouse buttons in sequence. Press the right mouse button and then the left
-  mouse button to go back, left first to go forwards.
-* RDoctor is a user script that enables searching by file, class, and method on
-  Ruby RDoc standard template pages.
-* F.I.G.S. (the Facebook Interactive Group Searcher) is another user script
-  that allows Facebook users to search through their groups as easily as they
-  do through their friends by adding groups to the AJAX search results on the
-  box. I believe Facebook has now implemented this functionality.
+* [Click Steer](/public/downloads/click-steer.xpi) is a Firefox extension that mimics
+  Opera's ability to navigate backwards and forwards in your history by quickly
+  pressing the left and right mouse buttons in sequence. Press the right mouse
+  button and then the left mouse button to go back, left first to go forwards.
+* [RDoctor](/public/downloads/rdoctor-version-1.user.js) is a user script that enables
+  searching by file, class, and method on Ruby RDoc standard template pages.
+* [F.I.G.S.](/public/downloads/fig-v-2.user.js) (the Facebook Interactive Group
+  Searcher) is another user script that allows Facebook users to search through
+  their groups as easily as they do through their friends by adding groups to
+  the AJAX search results on the box. I believe Facebook has now implemented
+  this functionality.
