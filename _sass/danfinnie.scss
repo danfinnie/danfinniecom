@@ -96,42 +96,90 @@
   } /*Because the p tags have no bottom as below */
 }
 
+.tiles {
+  text-align: justify;
+}
 
 .tile {
-  display: block;
-  width: 178px;
-  height: 178px;
-  margin: 0 19px;
-  float: left;
-  position: relative;
+  display: inline-block;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  border-radius: 9px;
   overflow: hidden;
 
   .desc {
     background-color: rgba(238, 171, 167, .7);
-    position: absolute;
-    top: 148px;
-    padding: 7px;
-    min-height: 108px;
-    -moz-transition: top .3s ease, opacity .3s ease;
-    -o-transition: top .3s ease, opacity .3s ease;
-    -webkit-transition: top .3s ease, opacity .3s ease;
-    transition: top .3s ease, opacity .3s ease;
+    padding: 10px;
   }
 
-  &:hover .desc {
-    top: 70px;
-    background-color: rgba(238, 171, 167, .8);
+  p, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
-  .desc h3 {
-    margin-bottom: 4px;
+  h3 {
     font-weight: 450;
     color: rgb(146, 20, 20);
   }
 
-  .desc p {
+  p {
     text-indent: 0;
     font-size: 90%;
     color: black !important;
+  }
+
+  @media (min-width: 48rem) {
+    display: inline-block;
+    padding-top: 100%;
+    height: 0;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    width: 49%;
+    padding-top: 49%;
+    margin-bottom: 0;
+    border-radius: 0;
+
+    .desc {
+      position: absolute;
+      top: 60%;
+      width: 100%;
+      padding: 7px;
+      -moz-transition: top .3s ease, opacity .3s ease;
+      -o-transition: top .3s ease, opacity .3s ease;
+      -webkit-transition: top .3s ease, opacity .3s ease;
+      transition: top .3s ease, opacity .3s ease;
+    }
+
+    &:hover .desc {
+      top: 0%;
+      background-color: rgba(238, 171, 167, .8);
+      bottom: 0;
+    }
+
+    h3 {
+      margin-bottom: 4px;
+    }
+
+    p {
+      -moz-transition: top .3s ease, opacity .3s ease;
+      -o-transition: top .3s ease, opacity .3s ease;
+      -webkit-transition: top .3s ease, opacity .3s ease;
+      opacity: 0;
+      position: absolute; /* Do not affect height of pink banners */
+    }
+
+    &:hover .desc p {
+      opacity: 1;
+    }
+  }
+
+  @media (min-width: 1318px) {
+    & {
+      width: 32%;
+      padding-top: 32%;
+    }
   }
 }
