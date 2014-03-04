@@ -8,6 +8,23 @@
   }
 }
 
+img.loupify {
+  display: block;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.loupe {
+  position: absolute;
+  z-index: 9999;
+  border: 10px solid black;
+  width: 200px;
+  height: 200px;
+  background-color: #ccc;
+  background-repeat: no-repeat;
+  border-radius: 200px;
+}
+
 #around-the-web {
   padding: 0;
   text-align: justify;
