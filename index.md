@@ -15,9 +15,9 @@ Around the Web
 --------------
 
 <ul id="around-the-web">
-  <li><a href="http://facebook.com/danfinnie"><img alt="Facebook" src="/public/images/facebook.png" /></a></li>
-  <li><a href="http://www.linkedin.com/in/danfinnie"><img alt="LinkedIn" src="/public/images/linkedin.png" /></a></li>
-  <li><a href="https://github.com/danfinnie"><img alt="GitHub" src="/public/images/github.png" /></a></li>
+  <li><a href="http://facebook.com/danfinnie"><img alt="Facebook" src="/public/images/contact_logos/facebook.png" /></a></li>
+  <li><a href="http://www.linkedin.com/in/danfinnie"><img alt="LinkedIn" src="/public/images/contact_logos/linkedin.png" /></a></li>
+  <li><a href="https://github.com/danfinnie"><img alt="GitHub" src="/public/images/contact_logos/github.png" /></a></li>
   <li><a id="email" href="mailto:dan@danfinnie.com">Email</a></li>
 </ul>
 
