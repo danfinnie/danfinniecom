@@ -12,6 +12,34 @@
   }
 }
 
+#around-the-web {
+  padding: 0;
+  text-align: justify;
+
+  li {
+    display: inline-block;
+    vertical-align: text-top;
+    line-height: 30px;
+  }
+
+  img {
+    border-radius: 0;
+  }
+
+  #email {
+    font-size: 30px;
+    color: rgb(81, 81, 81);
+    font-weight: bold;
+  }
+
+  &:after {
+    content: ' ';
+    display: inline-block;
+    height: 0;
+    width: 100%;
+  }
+}
+
 .resume {
   p {
     text-indent: 0;
