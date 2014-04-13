@@ -3,6 +3,7 @@ FROM bowery/ruby
 # Cache gem installation
 WORKDIR /tmp
 ADD Gemfile /tmp/Gemfile
+RUN bundle config build.psych --enable-bundled-libyaml
 RUN bundle install
 
 ADD . /opt/jekyll
