@@ -3,6 +3,7 @@ FROM bowery/ruby
 # Cache gem installation
 WORKDIR /tmp
 ADD Gemfile /tmp/Gemfile
+ADD Gemfile.lock /tmp/Gemfile.lock
 RUN bundle config build.psych --enable-bundled-libyaml
 RUN bundle install
 
