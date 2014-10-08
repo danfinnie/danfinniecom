@@ -145,6 +145,13 @@ img.loupify {
 
 .tiles {
   text-align: justify;
+
+  &:after {
+    content: ' ';
+    width: 100%;
+    height: 0px;
+    display: inline-block;
+  }
 }
 
 .tile {
