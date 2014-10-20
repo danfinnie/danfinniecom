@@ -10,7 +10,7 @@ improvement.
 Some of the accepted patches that I've made are:
 
 Bundler
-=======
+-------
 
 [Bundler](http://bundler.io/), a per-project Ruby dependency management tool,
 modified the syntax of the syntax of their Gemfile configuration file in a way
@@ -20,7 +20,7 @@ description of the problem when the newer syntax is used with the older
 version](https://github.com/bundler/bundler/pull/3199).
 
 Rails Latex
-===========
+-----------
 
 [rails-latex](https://github.com/baierjan/rails-latex) adds support for
 rendering LaTeX templates as PDF files for views, just like you might use Haml
@@ -38,7 +38,7 @@ project, I had a number of needs that weren't addressed by the plugin:
   Pathname object.
 
 FluentLenium
-============
+------------
 
 [FluentLenium](https://github.com/FluentLenium/FluentLenium) is a fluent Java
 interface to the Selenium web browser automation tool.  Using the tool, I
@@ -49,7 +49,7 @@ both assertions to split the class names on spaces like web
 browsers](https://github.com/FluentLenium/FluentLenium/pull/122).
 
 Simple BDD
-==========
+----------
 
 (Simple BDD)[https://github.com/robb1e/simple_bdd] is a Ruby behavior driven
 development helper that lets you attach human-readable strings to Gherkin
@@ -71,7 +71,7 @@ documentation](https://github.com/robb1e/simple_bdd/pull/13).
   better](https://github.com/robb1e/simple_bdd/pull/9).
 
 Bullet and Uniform Notifier
-===========================
+---------------------------
 
 [Bullet](https://github.com/flyerhzm/bullet) and [Uniform
 Notifier](https://github.com/flyerhzm/uniform_notifier) work together to notify
@@ -87,7 +87,7 @@ The tests were failing because of a prior commit, so we also [fixed those
 tests](https://github.com/flyerhzm/uniform_notifier/pull/13) before we started.
 
 Zend Framework 2
-================
+----------------
 
 [zf2](http://framework.zend.com/), one of the most popular PHP frameworks, had a bug
 in it's handling of hydrators, which turn PHP objects into JSON.  A class that
@@ -96,7 +96,7 @@ arguments, ignoring the parameter _n_.  I [fixed this behavior to respect
 _n_](https://github.com/zendframework/zf2/pull/6083).
 
 Symfony 2
-=========
+---------
 
 [Symfony](http://symfony.com/) is another popular PHP framework.  I updated
 their authentication mechanism to allow whitelisting of multiple IP addresses
@@ -121,14 +121,14 @@ In addition to contributing to Symfony, I made several contributions to widely u
 
 <!-- 
 Other
-=====
+-----
 
 * Massive documentation update to reflect what Pivotal's vim configuration actually does. https://github.com/pivotalcommon/vim-config/pull/31
 * Code Igniter https://github.com/NTICompass/CodeIgniter-Subqueries/pull/6
 -->
 
 Typo Fixes
-==========
+----------
 
 * [rspec-mocks](https://github.com/rspec/rspec-mocks/pull/289)
 * [letter_opener](https://github.com/ryanb/letter_opener/pull/96)
