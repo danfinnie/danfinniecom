@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Open Source
+weight: 3
 ---
 
 They say you should leave the world better than you found it.  I've tried to

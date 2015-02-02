@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+weight: 5
 ---
 
 Active Projects
