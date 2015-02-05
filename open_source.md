@@ -52,7 +52,7 @@ browsers](https://github.com/FluentLenium/FluentLenium/pull/122).
 Simple BDD
 ----------
 
-(Simple BDD)[https://github.com/robb1e/simple_bdd] is a Ruby behavior driven
+[Simple BDD](https://github.com/robb1e/simple_bdd) is a Ruby behavior driven
 development helper that lets you attach human-readable strings to Gherkin
 blocks (the Given/When/Then that's popular in the BDD community).  I've made
 several pull requests to the library:
